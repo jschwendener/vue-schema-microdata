@@ -7,13 +7,18 @@
   },
   "keywords": ["vue", "plugin", "schema.org", "microdata", "schema", "directive"],
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name VueSchemaMicrodata --entry src/plugins/VueSchemaMicrodata.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/VueSchemaMicrodata.umd.js",
+  "unpkg": "dist/VueSchemaMicrodata.umd.min.js",
+  "files": ["dist"],
+  "repository": "https://github.com/jschwendener/vue-schema-microdata",
+  "issues": "https://github.com/jschwendener/vue-schema-microdata/issues",
   "dependencies": {
     "core-js": "^3.4.4",
     "vue": "^2.6.10"
