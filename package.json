@@ -1,10 +1,16 @@
 {
   "name": "vue-schema-microdata",
+  "description": "Vue plugin/directive for adding schema.org microdata tags to your markup",
+  "author": {
+      "name": "Jonas Schwendener",
+      "email": "jonas.schwendener@gmail.com"
+  },
+  "license": "MIT",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name VueSchemaMicrodata --entry src/plugins/VueSchemaMicrodata.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
