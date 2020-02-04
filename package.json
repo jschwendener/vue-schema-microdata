@@ -5,8 +5,9 @@
       "name": "Jonas Schwendener",
       "email": "jonas.schwendener@gmail.com"
   },
+  "keywords": ["vue", "plugin", "schema.org", "microdata", "schema", "directive"],
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
